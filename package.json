@@ -1,0 +1,24 @@
+{
+    "name": "learn-webpack",
+    "version": "1.0.0",
+    "description": "just learning how webpack works",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stealthman22/learn-webpack.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stealthman22/learn-webpack/issues"
+    },
+    "homepage": "https://github.com/stealthman22/learn-webpack#readme",
+    "devDependencies": {
+        "webpack": "^4.41.3",
+        "webpack-cli": "^3.3.10"
+    }
+}
