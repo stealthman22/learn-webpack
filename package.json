@@ -4,7 +4,8 @@
     "description": "just learning how webpack works",
     "private": true,
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
     },
     "repository": {
         "type": "git",
@@ -19,7 +20,8 @@
     "homepage": "https://github.com/stealthman22/learn-webpack#readme",
     "devDependencies": {
         "webpack": "^4.41.3",
-        "webpack-cli": "^3.3.10"
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0"
     },
     "dependencies": {
         "lodash": "^4.17.15"
