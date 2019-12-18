@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'SEGA.woff';
+    src: url('./SEGA.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
 .hello {
     color: red;
+    font-family: 'SEGA.woff';
 }
