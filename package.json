@@ -19,6 +19,8 @@
     },
     "homepage": "https://github.com/stealthman22/learn-webpack#readme",
     "devDependencies": {
+        "css-loader": "^3.4.0",
+        "style-loader": "^1.0.2",
         "webpack": "^4.41.3",
         "webpack-cli": "^3.3.10",
         "webpack-dev-server": "^3.9.0"
