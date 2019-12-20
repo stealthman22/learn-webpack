@@ -10,7 +10,10 @@ module.exports = {
         app: './src/index.js',
         print: './src/print.js'
     },
-    devtool: 'inline-source-map',
+    devtool: 'eval',
+    devServer: {
+        contentBase: './dist'
+    },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
