@@ -8,11 +8,11 @@ module.exports = {
     entry: {
 
         app: './src/index.js',
-        print: './src/print.js'
     },
     devtool: 'eval',
     devServer: {
-        contentBase: './dist'
+        contentBase: './dist',
+        hot: true,
     },
     plugins: [
         new CleanWebpackPlugin(),
