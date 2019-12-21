@@ -1,7 +1,8 @@
 import _ from 'lodash';
-/* import './style.css';
-import time from './time.png' */
+
+/*import time from './time.png' */
 import printMe from './print'
+import './style.css';
 
 function component() {
   const element = document.createElement('div');

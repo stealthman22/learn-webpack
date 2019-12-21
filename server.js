@@ -1,5 +1,5 @@
 // Expres server for webpack
-/*
+
 const express = require('express');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
@@ -21,4 +21,3 @@ app.listen(3000, function () {
 
 
 
- */
