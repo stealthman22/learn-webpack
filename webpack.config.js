@@ -8,18 +8,11 @@ module.exports = {
     entry: {
 
         app: './src/index.js',
-        another: './src/another.js',
     },
     devtool: 'eval',
     devServer: {
         contentBase: './dist',
         hot: true,
-    },
-    // for code splitting
-    optimization: {
-        splitChunks: {
-            chunks: 'all',
-        },
     },
     module: {
 
@@ -52,4 +45,5 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
     },
+    // code splitting plugin should come here
 };
