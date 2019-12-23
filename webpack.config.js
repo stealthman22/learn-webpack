@@ -8,11 +8,18 @@ module.exports = {
     entry: {
 
         app: './src/index.js',
+        another: './src/another.js',
     },
     devtool: 'eval',
     devServer: {
         contentBase: './dist',
         hot: true,
+    },
+    // for code splitting
+    optimization: {
+        splitChunks: {
+            chunks: 'all',
+        },
     },
     module: {
 
