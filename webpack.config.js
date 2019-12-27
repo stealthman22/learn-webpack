@@ -45,5 +45,4 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
     },
-    // code splitting plugin should come here
 };
